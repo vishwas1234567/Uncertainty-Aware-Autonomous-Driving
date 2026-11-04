@@ -1,0 +1,8 @@
+300 randomised episodes (random lead speed/position, oncoming car, circulating traffic)
+  completed route        : 100.0%
+  episodes with collision: 0.0%
+  overtakes performed    : 0.72 per episode (72% of episodes)
+  mean route time        : 57.5 s
+  min gap (median / 5th) : 9.2 m / 6.4 m
+  episodes that had to wait at yield line: 35%
+saved bt_episode.png

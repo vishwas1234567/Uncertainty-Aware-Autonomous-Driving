@@ -1,0 +1,236 @@
+{
+ "localisation": {
+  "baseline": {
+   "ndt": {
+    "rmse": 0.11371633141464185,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "ndtpf": {
+    "rmse": 0.30337824271689406,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "detector": {
+    "steps_err_gt_2m": 0,
+    "recall_when_err_gt_2m": null,
+    "false_alarm_rate": 0.0
+   }
+  },
+  "blackout_5s": {
+   "ndt": {
+    "rmse": 0.16356908461694084,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "ndtpf": {
+    "rmse": 0.35020904478680565,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "detector": {
+    "steps_err_gt_2m": 0,
+    "recall_when_err_gt_2m": null,
+    "false_alarm_rate": 0.055757575757575756
+   }
+  },
+  "outliers_40pct": {
+   "ndt": {
+    "rmse": 0.1412820388735371,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "ndtpf": {
+    "rmse": 0.31717864052035105,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "detector": {
+    "steps_err_gt_2m": 0,
+    "recall_when_err_gt_2m": null,
+    "false_alarm_rate": 0.0
+   }
+  },
+  "gyro_bias_0.03": {
+   "ndt": {
+    "rmse": 0.1161407764599024,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "ndtpf": {
+    "rmse": 0.21118447455137207,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "detector": {
+    "steps_err_gt_2m": 0,
+    "recall_when_err_gt_2m": null,
+    "false_alarm_rate": 0.0
+   }
+  },
+  "sensor_noise_0.3m": {
+   "ndt": {
+    "rmse": 0.16194148416443893,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "ndtpf": {
+    "rmse": 0.29455948430346457,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "detector": {
+    "steps_err_gt_2m": 0,
+    "recall_when_err_gt_2m": null,
+    "false_alarm_rate": 0.0
+   }
+  },
+  "map_change_33pct": {
+   "ndt": {
+    "rmse": 0.1361115066310038,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "ndtpf": {
+    "rmse": 0.41452892861786844,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "detector": {
+    "steps_err_gt_2m": 0,
+    "recall_when_err_gt_2m": null,
+    "false_alarm_rate": 0.0
+   }
+  },
+  "blackout_20s": {
+   "ndt": {
+    "rmse": 29.637218845781565,
+    "max": 64.59971417828136,
+    "converged": 0.2
+   },
+   "ndtpf": {
+    "rmse": 2.770025539220487,
+    "max": 10.763444769010416,
+    "converged": 1.0
+   },
+   "detector": {
+    "steps_err_gt_2m": 956,
+    "recall_when_err_gt_2m": 0.696652719665272,
+    "false_alarm_rate": 0.11360050489113285
+   }
+  },
+  "outliers_70pct": {
+   "ndt": {
+    "rmse": 0.22707721984451595,
+    "max": 1.6530599577808172,
+    "converged": 1.0
+   },
+   "ndtpf": {
+    "rmse": 0.3817084823920012,
+    "max": 1.4617595658297238,
+    "converged": 1.0
+   },
+   "detector": {
+    "steps_err_gt_2m": 0,
+    "recall_when_err_gt_2m": null,
+    "false_alarm_rate": 0.9410909090909091
+   }
+  },
+  "map_change_67pct": {
+   "ndt": {
+    "rmse": 0.1683409363109946,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "ndtpf": {
+    "rmse": 0.3501523086488366,
+    "max": 1.4142135623730951,
+    "converged": 1.0
+   },
+   "detector": {
+    "steps_err_gt_2m": 0,
+    "recall_when_err_gt_2m": null,
+    "false_alarm_rate": 0.0
+   }
+  },
+  "severe_combo": {
+   "ndt": {
+    "rmse": 61.08931756214722,
+    "max": 107.04561133731195,
+    "converged": 0.0
+   },
+   "ndtpf": {
+    "rmse": 54.47483193694679,
+    "max": 92.014368755056,
+    "converged": 0.0
+   },
+   "detector": {
+    "steps_err_gt_2m": 3190,
+    "recall_when_err_gt_2m": 0.9968652037617555,
+    "false_alarm_rate": 0.19144385026737967
+   }
+  }
+ },
+ "decision": {
+  "none": {
+   "no_supervisor": {
+    "collision_rate": 0.0,
+    "completion": 1.0
+   },
+   "supervisor": {
+    "collision_rate": 0.0,
+    "completion": 1.0
+   }
+  },
+  "latency_0.5s": {
+   "no_supervisor": {
+    "collision_rate": 0.0,
+    "completion": 1.0
+   },
+   "supervisor": {
+    "collision_rate": 0.0,
+    "completion": 1.0
+   }
+  },
+  "latency_1.0s": {
+   "no_supervisor": {
+    "collision_rate": 0.0,
+    "completion": 1.0
+   },
+   "supervisor": {
+    "collision_rate": 0.0,
+    "completion": 1.0
+   }
+  },
+  "oncoming_dropout_3s": {
+   "no_supervisor": {
+    "collision_rate": 0.865,
+    "completion": 1.0
+   },
+   "supervisor": {
+    "collision_rate": 0.0,
+    "completion": 1.0
+   }
+  },
+  "oncoming_speed_x0.6": {
+   "no_supervisor": {
+    "collision_rate": 0.0,
+    "completion": 1.0
+   },
+   "supervisor": {
+    "collision_rate": 0.0,
+    "completion": 1.0
+   }
+  },
+  "cv_timing_sigma_1.5s": {
+   "no_supervisor": {
+    "collision_rate": 0.02,
+    "completion": 1.0
+   },
+   "supervisor": {
+    "collision_rate": 0.02,
+    "completion": 1.0
+   }
+  }
+ }
+}

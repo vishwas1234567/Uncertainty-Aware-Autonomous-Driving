@@ -1,0 +1,18 @@
+condition                controller            done  RMS ey  max ey  coll  clr[m]  plan ms
+nominal                  Pure pursuit          True   0.112    0.51     0    1.44     27.1
+nominal                  Stanley               True   0.070    0.26     0    1.29     26.4
+nominal                  MPC (fixed model)     True   0.060    0.24     0    1.18     26.2
+nominal                  Adaptive MPC          True   0.060    0.24     0    1.17     27.4
+gain_0.7+latency_0.1s    Pure pursuit          True   0.160    0.61     0    1.39     29.6
+gain_0.7+latency_0.1s    Stanley               True   0.117    0.51     0    1.31     27.0
+gain_0.7+latency_0.1s    MPC (fixed model)     True   0.090    0.36     0    1.24     27.8
+gain_0.7+latency_0.1s    Adaptive MPC          True   0.897    3.08     0    0.81     27.1
+loc_noise_0.3m           Pure pursuit          True   0.193    0.64     0    1.04     27.9
+loc_noise_0.3m           Stanley               True   0.155    0.62     0    0.79     26.3
+loc_noise_0.3m           MPC (fixed model)     True   0.145    0.62     0    1.35     26.5
+loc_noise_0.3m           Adaptive MPC          True   0.145    0.62     0    1.35     29.7
+all_faults               Pure pursuit          True   0.254    0.91     0    1.06     29.4
+all_faults               Stanley               True   0.205    0.67     0    1.49     26.8
+all_faults               MPC (fixed model)     True   0.217    0.59     0    1.60     25.7
+all_faults               Adaptive MPC         False   0.618    4.57     0    0.40     13.0
+saved figures/closed_loop.png

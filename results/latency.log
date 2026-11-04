@@ -1,0 +1,13 @@
+pf_update_100_particles      p50     1.06 ms   p95     1.20 ms
+pf_update_300_particles      p50     3.64 ms   p95     3.93 ms
+pf_update_1000_particles     p50    11.95 ms   p95    13.86 ms
+ndt_align_6_iters            p50     1.92 ms   p95     2.27 ms
+ndt_pf_full_cycle_300        p50     5.61 ms   p95     6.22 ms
+lattice_plan                 p50    20.48 ms   p95    30.12 ms
+qp_trajectory_opt            p50     0.88 ms   p95     1.00 ms
+mpc_step                     p50     0.18 ms   p95     0.24 ms
+bt_tick                      p50     0.03 ms   p95     0.04 ms
+budget localisation_10Hz    p95    6.22 / 100 ms  OK
+budget planning_2Hz         p95   30.12 / 500 ms  OK
+budget control_20Hz         p95    0.24 / 50 ms  OK
+budget decision_10Hz        p95    0.04 / 100 ms  OK

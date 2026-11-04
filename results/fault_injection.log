@@ -1,0 +1,19 @@
+== (A) localisation faults, 5 seeds ==
+baseline             NDT rmse   0.11 max   1.41 conv 100% | NDT-PF rmse   0.30 max   1.41 conv 100% | det recall n/a FA 0.000
+blackout_5s          NDT rmse   0.16 max   1.41 conv 100% | NDT-PF rmse   0.35 max   1.41 conv 100% | det recall n/a FA 0.056
+outliers_40pct       NDT rmse   0.14 max   1.41 conv 100% | NDT-PF rmse   0.32 max   1.41 conv 100% | det recall n/a FA 0.000
+gyro_bias_0.03       NDT rmse   0.12 max   1.41 conv 100% | NDT-PF rmse   0.21 max   1.41 conv 100% | det recall n/a FA 0.000
+sensor_noise_0.3m    NDT rmse   0.16 max   1.41 conv 100% | NDT-PF rmse   0.29 max   1.41 conv 100% | det recall n/a FA 0.000
+map_change_33pct     NDT rmse   0.14 max   1.41 conv 100% | NDT-PF rmse   0.41 max   1.41 conv 100% | det recall n/a FA 0.000
+blackout_20s         NDT rmse  29.64 max  64.60 conv  20% | NDT-PF rmse   2.77 max  10.76 conv 100% | det recall 0.70 FA 0.114
+outliers_70pct       NDT rmse   0.23 max   1.65 conv 100% | NDT-PF rmse   0.38 max   1.46 conv 100% | det recall n/a FA 0.941
+map_change_67pct     NDT rmse   0.17 max   1.41 conv 100% | NDT-PF rmse   0.35 max   1.41 conv 100% | det recall n/a FA 0.000
+severe_combo         NDT rmse  61.09 max 107.05 conv   0% | NDT-PF rmse  54.47 max  92.01 conv   0% | det recall 1.00 FA 0.191
+
+== (B) decision-making faults, 200 episodes each ==
+none                     collisions   0.0% ->   0.0% (with supervisor) | completion 100.0% / 100.0%
+latency_0.5s             collisions   0.0% ->   0.0% (with supervisor) | completion 100.0% / 100.0%
+latency_1.0s             collisions   0.0% ->   0.0% (with supervisor) | completion 100.0% / 100.0%
+oncoming_dropout_3s      collisions  86.5% ->   0.0% (with supervisor) | completion 100.0% / 100.0%
+oncoming_speed_x0.6      collisions   0.0% ->   0.0% (with supervisor) | completion 100.0% / 100.0%
+cv_timing_sigma_1.5s     collisions   2.0% ->   2.0% (with supervisor) | completion 100.0% / 100.0%

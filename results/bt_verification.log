@@ -1,0 +1,7 @@
+structure: {'leaves': ['approaching_roundabout', 'before_yield_line', 'conflict_ahead', 'yield', 'enter_roundabout', 'blocked_by_slow_lead', 'overtake_safe', 'go_left', 'pass_lead', 'return_right', 'cruise'], 'depth': 4, 'root_total': True}
+
+[A overtaking] 3575 scenarios in 228s
+  violations: none | incomplete routes: 0
+
+[B roundabout yield] 1856 scenarios in 88s
+  violations: none | incomplete routes: 0

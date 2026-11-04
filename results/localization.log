@@ -1,0 +1,16 @@
+HD map: 2133 points, route length 412 m
+
+Scenario: nominal init (1.4 m, 5 deg off)  (5 seeds, mean of per-run metrics)
+method                    RMSE pos [m]   p95 [m]   max [m]  RMSE yaw [deg]  converged
+Dead reckoning                   35.01     50.39     51.27           32.48         0%
+NDT only                          0.11      0.20      1.41            0.26       100%
+PF (NDT likelihood)               2.89      4.74      4.87            3.80         0%
+NDT-PF (ours)                     0.30      0.55      1.41            0.54       100%
+
+Scenario: hard init (5 m, 20 deg off)  (5 seeds, mean of per-run metrics)
+method                    RMSE pos [m]   p95 [m]   max [m]  RMSE yaw [deg]  converged
+Dead reckoning                   53.78     79.28     80.22           46.88         0%
+NDT only                          0.49      0.21      5.02            1.57       100%
+PF (NDT likelihood)               3.04      4.99      5.34            4.25         0%
+NDT-PF (ours)                     0.50      0.81      5.00            1.54       100%
+saved localization_results.png
